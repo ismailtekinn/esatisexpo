@@ -1,3 +1,4 @@
+import { Product } from "./screens/ProductBarcodeReadList";
 import { MinimalProduct } from "./types/productType";
 import { SaleEditProdcut } from "./types/saleType";
 
@@ -27,6 +28,7 @@ export type RootStackParamList = {
   // SalesEdit: undefined;
   // SalesEdit: SaleEditProdcut;
   SalesScreen: undefined;
+  
   SettingsScreen:undefined;
   MainPage: undefined;
   PurchaseForm: undefined;
@@ -44,6 +46,7 @@ export type RootStackParamList = {
   StaffScreen: undefined;
   CustomerSearchScreen:undefined;
   TriaSplashScreen:undefined;
+  ProductBarcodeReadListScreen: { products: Product[] };
 
 };
 

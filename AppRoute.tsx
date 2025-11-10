@@ -43,6 +43,8 @@ import TriaSplashScreen from "./screens/TriaSplashScreen";
 import { AutoLoginOption } from "./types/enums/settings";
 import { BackendResponse } from "./types/apiresponse/newGenericResponseType";
 import BarcodeReadScreen from "./screens/BarcodeReadScreen";
+import ProductBarcodeReadList from "./screens/ProductBarcodeReadList";
+import ProductBarcodeReadListScreen from "./screens/ProductBarcodeReadListScreen";
 
 const Stack = createStackNavigator();
 
@@ -153,6 +155,11 @@ const AppRoute: React.FC = () => {
           <Stack.Screen
             name="BarcodeReadScreen"
             component={BarcodeReadScreen}
+            options={{ headerShown: false }}
+          />
+          <Stack.Screen
+            name="ProductBarcodeReadList"
+            component={ProductBarcodeReadListScreen} // sadece bir “wrapper” component
             options={{ headerShown: false }}
           />
           <Stack.Screen
