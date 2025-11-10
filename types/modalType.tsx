@@ -1,0 +1,1 @@
+export type ModalType = "action" | "info" | "settings" | "fileType"| null;

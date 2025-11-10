@@ -1,0 +1,1 @@
+export type MenuActionType = "SAVE_PENDING" | "LOAD_PENDING" | "OTHER_ACTION" |"SHARE_DOCUMENT";

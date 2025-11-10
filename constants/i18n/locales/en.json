@@ -1,0 +1,320 @@
+{
+  "add_customer": {
+    "title": "Add Customer",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "phone": "Phone",
+    "address": "Address",
+    "save": "Save",
+    "success": "Customer added successfully.",
+    "error": "An error occurred: "
+  },
+  "addSupplier": {
+    "pageTitle": "Add Supplier",
+    "SupplierName": "Supplier Name",
+    "SupplierSurname": "Supplier Surname",
+    "Phone": "Phone",
+    "Address": "Address",
+    "saveButton": "Save"
+  },
+  "add_product": {
+    "title": "Add Product",
+    "barcode": "Product Code",
+    "barcode_placeholder": "Barcode",
+    "scan_barcode": "Scan Barcode",
+    "product_name": "Product Name",
+    "stock_type": "Stock Type",
+    "initial_stock": "Initial Stock",
+    "purchase_price": "Purchase Price",
+    "purchase_price_placeholder": "Purchase Price",
+    "sale_price": "Sale Price",
+    "sale_price_placeholder": "Sale Price",
+    "save": "Save",
+    "message": {
+      "createSuccess": "Product saved successfully.",
+      "createError": "An error occurred."
+    }
+  },
+  "admin": {
+    "dashboard": "Admin Panel",
+    "error": "User data could not be retrieved.",
+    "no_users": "No inactive users found.",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "success": "User activated successfully.",
+    "id": "ID",
+    "name": "Name",
+    "surname": "Surname",
+    "phone": "Phone",
+    "action": "Action"
+  },
+  "camera": {
+    "permission_message": "We need your permission to use the camera",
+    "grant_button": "Grant Permission",
+    "close": "Close"
+  },
+  "customer": {
+    "search_placeholder": "Search",
+    "add_button": "+ Add Customer"
+  },
+  "detail": {
+    "title": "Product Detail",
+    "product_info": "Product Information",
+    "name": "Product Name",
+    "code": "Product Code",
+    "purchase_price": "Purchase Price",
+    "sale_price": "Sale Price",
+    "start_stock": "Initial Stock",
+    "remain_stock": "Remaining Stock",
+    "transactions": "Product Transactions",
+    "purchase": "Purchase",
+    "sale": "Sale"
+  },
+  "financial": {
+    "title": "Financial",
+    "sales": "Sales",
+    "sales_return": "Sales Return",
+    "purchases": "Purchases",
+    "purchase_return": "Purchase Return",
+    "expenses": "Expenses",
+    "net_profit": "Net Profit",
+    "date_range": "Date Range",
+    "start_date": "Start Date",
+    "end_date": "End Date",
+    "transactions": "Transactions",
+    "back": "Back",
+    "print": "Print"
+  },
+  "help": {
+    "title": "Contact Us",
+    "name": "Enter your name",
+    "email": "Enter your email address",
+    "subject": "Enter the subject",
+    "message": "Write your message here",
+    "send": "Send",
+    "customer_service": "Customer Service:",
+    "contact_us": "Contact Us:"
+  },
+  "login": {
+    "title": "Login",
+    "phone": "Phone Number",
+    "password": "Password",
+    "signIn": "Sign In",
+    "forgotPassword": "Forgot Password",
+    "register": "Register",
+    "alertEmpty": "Please enter phone number and password.",
+    "alertError": "Error"
+  },
+  "main": {
+    "pageTitle": "MainPage",
+    "buy": "Purchase",
+    "sell": "Sale",
+    "return": "Return",
+    "products": "Products",
+    "report": "Report"
+  },
+  "modalbarcode": {
+    "permissionMessage": "We need your permission to use the camera",
+    "grantButton": "Grant Permission",
+    "flip": "Flip Camera",
+    "close": "Close"
+  },
+  "new_sale": {
+    "pageTitle": "NewSale",
+    "addCustomer": "Add Customer",
+    "selectCustomer": "Select Customer",
+    "payment_method": "Payment Method",
+    "invoice_date": "Invoice Date",
+    "select_product": "Select Product",
+    "scan_barcode": "Scan Barcode",
+    "quantity": "Quantity",
+    "unit_price": "Unit Price",
+    "subtotal": "Subtotal",
+    "delete_product": "Delete Product",
+    "order_summary": "Order Summary",
+    "total": "Total Amount",
+    "save": "Save"
+  },
+  "product_edit": {
+    "title": "Edit Product",
+    "barcode": "Product Code",
+    "scan_barcode": "Scan Barcode",
+    "product_name": "Product Name",
+    "stock_type": "Stock Type",
+    "stock_quantity": "Initial Stock",
+    "purchase_price": "Purchase Price ",
+    "sale_price": "Sale Price",
+    "delete": "Delete",
+    "save": "Save",
+    "update_success": "Product updated.",
+    "update_error": "Product update failed.",
+    "no_changes": "No changes made."
+  },
+  "product_list": {
+    "pageTitle": "Product List",
+    "search_placeholder": "Search",
+    "scan_barcode": "Find by Barcode",
+    "add_product": "Add New Product",
+    "all": "All",
+    "out_of_stock": "Out of Stock",
+    "stock": "Stock",
+    "purchase_price": "Purchase",
+    "sale_price": "Sale",
+    "not_found": "No product found with this barcode.",
+    "error": "An error occurred"
+  },
+  "purchaseform": {
+    "pageTitle": "PurchaseForm",
+    "customer": "Customer",
+    "addSupplier": "Add Supplier",
+    "selectSupplier": "Select Supplier",
+    "selectCustomer": "Select Customer",
+    "payment_method": "Payment Method",
+    "invoice_date": "Invoice Date",
+    "select_product": "Select Product",
+    "scan_barcode": "Scan Barcode",
+    "quantity": "Quantity",
+    "unit_price": "Unit Price",
+    "subtotal": "Subtotal",
+    "delete_product": "Delete Product",
+    "order_summary": "Order Summary",
+    "total": "Total",
+    "save": "Save",
+    "success": "Operation successful",
+    "error": "An error occurred: "
+  },
+  "payment": {
+    "cash": "Cash",
+    "card": "Card",
+    "transfer": "Transfer",
+    "debt": "Debt"
+  },
+  "report": {
+    "pageTitle": "Reports",
+    "all_transactions": "All Transactions",
+    "sale": "Sale",
+    "customer_return": "Customer Return",
+    "debt": "Debt",
+    "purchase": "Purchase",
+    "supplier_return": "Supplier Return",
+    "date_range": "Date Range",
+    "date": "Date",
+    "transaction": "Transaction",
+    "price": "Price",
+    "stokType": "Stock Type"
+  },
+  "register": {
+    "title": "Register",
+    "name": "Name",
+    "surname": "Surname",
+    "username": "Username",
+    "phone": "Phone",
+    "email": "Email",
+    "Address": "Adres",
+    "password": "Password",
+    "sign_up": "Sign Up",
+    "sign_in": "Sign In"
+  },
+  "return_product": {
+    "title": "Product Return",
+    "return_type": "Return Type",
+    "invoice_date": "Invoice Date",
+    "add_customer": "Add Customer",
+    "add_supplier": "Add Supplier",
+    "select_customer": "Select Customer",
+    "customerReturn": "Customer Return",
+    "supplierReturn": "Supplier Return",
+    "select_supplier": "Select Supplier",
+    "select_product": "Select Product",
+    "scan_barcode": "Scan Barcode",
+    "quantity": "Quantity",
+    "unit_price": "Unit Price",
+    "subtotal": "Subtotal",
+    "delete_product": "Delete Product",
+    "save": "Save",
+    "success_message": "Return saved successfully.",
+    "error_message": "An error occurred: "
+  },
+  "edit_sale": {
+    "title": "Modifier la vente",
+    "customer": "Client",
+    "customerSelect": "Customer Select",
+    "addCustomer": "Add Customer",
+    "payment_method": "Mode de paiement",
+    "invoice_date": "Date de facture",
+    "select_product": "Sélectionner un produit",
+    "scan_barcode": "Scanner le code-barres",
+    "delete_product": "Supprimer le produit",
+    "quantity": "Quantity",
+    "kg": "KG",
+    "unit_price": "Prix unitaire",
+    "subtotal": "Sous-total",
+    "order_summary": "Order Summary",
+    "total": "Total",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "sale_saved": "Vente enregistrée !",
+    "sale_deleted": "Vente supprimée !"
+  },
+  "scrollable_list_screen": {
+    "item": "Item"
+  },
+  "select_product": {
+    "pageTitle": "SelectProduct",
+    "search_placeholder": "Search",
+    "add_product": "+ Add New Product",
+    "stock": "Stock"
+  },
+  "table_screen": {
+    "no": "No",
+    "title1": "Title 1",
+    "title2": "Title 2",
+    "title3": "Title 3",
+    "title4": "Title 4",
+    "title5": "Title 5",
+    "title6": "Title 6"
+  },
+  "sale_product_list": {
+    "pageTitle": "Purchased Product List",
+    "sale_date": "Sale Date",
+    "add_product": "Add New Product",
+    "messages": {
+      "fetch_success": "Products loaded successfully.",
+      "fetch_error": "An error occurred: ",
+      "fetch_error_console": "Error occurred while fetching products: "
+    }
+  },
+  "alertMessage": {
+    "createSuccess": "Record created successfully.",
+    "createError": "An error occurred while creating the record.",
+    "updateSuccess": "Update completed successfully.",
+    "updateError": "An error occurred while updating.",
+    "deleteSuccess": "Delete operation completed successfully.",
+    "deleteError": "An error occurred while deleting.",
+    "fetchError": "An error occurred while fetching data.",
+    "fetchSuccess": "Data loaded successfully.",
+    "requiredField": "Please fill in the required fields.",
+    "unexpectedError": "An unexpected error occurred. Please try again.",
+    "barcodeReadError": "No valid product found for the barcode number.",
+    "loginEntryInput": "Phone number and password fields cannot be empty.",
+    "loginFailed": "Login failed. Please check your credentials.",
+    "userNotFound": "No user found with the entered phone number and password.",
+    "selectSupplier": "Select a supplier",
+    "no_changes": "No changes were made."
+  },
+  "stockType": {
+    "KG": "Kilogram",
+    "Adet": "Piece",
+    "Koli": "Box",
+    "Paket": "Package",
+    "GR": "Gram",
+    "Ons": "Ounce",
+    "Litre": "Liter"
+  },
+  "mainPageMenu": {
+    "pageTitle": "Contact",
+    "logout": "Log Out",
+    "help": "Support",
+    "wtihmecontact": "Contact Us"
+  }
+}

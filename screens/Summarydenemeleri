@@ -1,0 +1,278 @@
+        {/* <View style={styles.summaryBox}>
+          <View style={styles.summaryItem}>
+            <Text style={styles.summaryLabel}>Ürün Çeşidi</Text>
+            <Text style={styles.summaryValue}>{summary.totalItems}</Text>
+          </View>
+          <View style={styles.summaryDivider} />
+          <View style={styles.summaryItem}>
+            <Text style={styles.summaryLabel}>Toplam Adet</Text>
+            <Text style={styles.summaryValue}>{summary.totalStock}</Text>
+          </View>
+          <View style={styles.summaryDivider} />
+          <View style={styles.summaryItem}
+          >
+            <Text style={styles.summaryLabel}>Genel Toplam</Text>
+            <Text style={styles.summaryValuePrice}>
+              ₺
+              {summary.totalPrice.toLocaleString("tr-TR", {
+                minimumFractionDigits: 2,
+              })}
+            </Text>
+          </View>
+        </View> */}
+
+        {/* <View style={styles.summaryBox}>
+
+          <View style={styles.summaryRow}>
+            <View style={styles.summaryItem}>
+              <Text style={styles.summaryLabel}>Ürün Çeşidi</Text>
+              <Text style={styles.summaryValue}>{summary.totalItems}</Text>
+            </View>
+            <View style={styles.summaryItem}>
+              <Text style={styles.summaryLabel}>Toplam Adet</Text>
+              <Text style={styles.summaryValue}>{summary.totalStock}</Text>
+            </View>
+          </View>
+          <View style={styles.summaryRow}>
+            <View style={styles.summaryItem}>
+              <Text style={styles.summaryLabel}>İskonto</Text>
+              <Text style={styles.summaryValuePrice}>
+                ₺
+                {summary.totalPrice.toLocaleString("tr-TR", {
+                  minimumFractionDigits: 2,
+                })}
+              </Text>
+            </View>
+            <View style={styles.summaryItem}>
+              <Text style={styles.summaryLabel}>Genel Toplam</Text>
+              <Text style={styles.summaryValuePrice}>
+                ₺
+                {summary.totalPrice.toLocaleString("tr-TR", {
+                  minimumFractionDigits: 2,
+                })}
+              </Text>
+            </View>
+          </View>
+        </View> */}
+
+
+
+
+                {/* <View style={styles.summaryBox}>
+          <View style={styles.summaryRow}>
+            <View style={styles.summaryItem}>
+              <Text style={styles.summaryLabel}>Ürün Çeşidi</Text>
+              <Text style={styles.summaryValue}>{summary.totalItems}</Text>
+            </View>
+            <View style={styles.summaryItem}>
+              <Text style={styles.summaryLabel}>Toplam Adet</Text>
+              <Text style={styles.summaryValue}>{summary.totalStock}</Text>
+            </View>
+          </View>
+
+          <View style={styles.summaryRow}>
+            <View style={styles.summaryItem}>
+              <Text style={styles.summaryLabel}>İskonto</Text>
+              <Text style={styles.summaryValue}>
+                ₺
+                {summary.totalPrice.toLocaleString("tr-TR", {
+                  minimumFractionDigits: 2,
+                })}
+              </Text>
+            </View>
+            <View
+              style={{
+                backgroundColor: "#64748B",
+                borderWidth: 1,
+                borderColor: "#64748B",
+                borderRadius: 7,
+                justifyContent: "center",
+                paddingHorizontal: 4,
+              }}
+            >
+              <Text style={{ fontSize: 12, fontWeight: "700", color: "#fff" }}>
+                Genel Toplam
+              </Text>
+              <Text
+                style={{
+                  fontSize: 22,
+                  color: "#fff", 
+                }}
+              >
+                ₺
+                {summary.totalPrice.toLocaleString("tr-TR", {
+                  minimumFractionDigits: 2,
+                })}
+              </Text>
+            </View>
+          </View>
+        </View> */}
+
+
+
+
+
+          // summaryBox: {
+  //   position: "absolute",
+  //   flexDirection: "row",
+  //   alignItems: "center",
+  //   bottom: 0,
+  //   // justifyContent: "space-between",
+  //   justifyContent: "center",
+  //   alignContent:"center",
+  //   backgroundColor: "#F8FAFC",
+  //   // padding: 18,
+  //   // paddingRight: 63,
+  //   height: screenHeight * 0.12,
+  //   marginLeft: screenWidth * 0.01,
+  //   borderRadius: 16,
+  //   width: screenWidth * 0.84,
+  //   borderWidth: 0.5,
+  //   borderColor: "#CBD5E1",
+  //   borderTopWidth: 3,
+  //   borderTopColor: "#0F172A",
+  // },
+  // summaryItem: {
+  //   // alignItems: "center",
+  //   justifyContent:"center",
+
+  //   // flex: 1,
+  //   paddingVertical: 4,
+  // },
+  // summaryDivider: {
+  //   width: 0.9,
+  //   height: "50%",
+  //   backgroundColor: "#CBD5E1",
+  //   marginHorizontal: 12,
+  // },
+  // summaryLabel: {
+  //   fontSize: 10,
+  //   color: "#64748B",
+  //   marginBottom: 4,
+  //   textAlign: "center",
+  //   fontWeight: "600",
+  //   letterSpacing: 0.5,
+  //   textTransform: "uppercase",
+  // },
+  // summaryValue: {
+  //   fontSize: 20,
+  //   fontWeight: "800",
+  //   color: "#0F172A",
+  //   textAlign: "center",
+  // },
+  // summaryValuePrice: {
+  //   fontSize: 20,
+  //   fontWeight: "800",
+  //   color: "#059669",
+  //   textAlign: "center",
+  //   flexShrink: 1,
+  // },
+
+  // summaryBox: {
+  //   position: "absolute",
+  //   bottom: 0,
+  //   width: screenWidth * 0.84,
+  //   backgroundColor: "#F8FAFC",
+  //   borderRadius: 16,
+  //   borderWidth: 0.5,
+  //   borderColor: "#CBD5E1",
+  //   borderTopWidth: 3,
+  //   borderTopColor: "#0F172A",
+  //   paddingVertical: 10,
+  //   paddingHorizontal: 12,
+  //   elevation: 3,
+  //   shadowColor: "#000",
+  //   shadowOffset: { width: 0, height: 2 },
+  //   shadowOpacity: 0.1,
+  //   shadowRadius: 4,
+  // },
+  // summaryRow: {
+  //   flexDirection: "row",
+  //   justifyContent: "space-between",
+  //   alignItems: "center",
+  //   marginBottom: 6,
+  // },
+  // summaryItem: {
+  //   flex: 1,
+  //   flexDirection: "column",
+  //   alignItems: "center",
+  //   justifyContent: "center",
+  //   paddingVertical: 4,
+  // },
+  // summaryLabel: {
+  //   fontSize: 10,
+  //   color: "#64748B",
+  //   marginBottom: 4,
+  //   textAlign: "center",
+  //   fontWeight: "600",
+  //   letterSpacing: 0.5,
+  //   textTransform: "uppercase",
+  // },
+  // summaryValue: {
+  //   fontSize: 18,
+  //   fontWeight: "800",
+  //   color: "#0F172A",
+  //   textAlign: "center",
+  // },
+  // summaryValuePrice: {
+  //   fontSize: 18,
+  //   fontWeight: "800",
+  //   color: "#059669",
+  //   textAlign: "center",
+  // },
+
+
+    // summaryBox: {
+  //   position: "absolute",
+  //   width: screenWidth * 0.84,
+  //   height: screenHeight * 0.15,
+  //   bottom: screenHeight * 0.01,
+  //   backgroundColor: "#F8FAFC",
+  //   borderRadius: 16,
+  //   borderWidth: 0.5,
+  //   borderColor: "#CBD5E1",
+  //   borderTopWidth: 3,
+  //   marginLeft: screenWidth * 0.01,
+  //   borderTopColor: "#0F172A",
+  //   paddingVertical: 12,
+  //   paddingHorizontal: 16,
+  //   elevation: 3,
+  //   shadowColor: "#000",
+  //   shadowOffset: { width: 0, height: 2 },
+  //   shadowOpacity: 0.1,
+  //   shadowRadius: 4,
+  // },
+  // summaryRow: {
+  //   flexDirection: "row",
+  //   flexWrap: "wrap",
+  //   maxHeight: 60,
+  //   justifyContent: "space-between",
+  //   alignItems: "center",
+  // },
+  // summaryItem: {
+  //   flex: 1,
+  //   flexDirection: "column",
+  //   alignItems: "center",
+  //   justifyContent: "center",
+  // },
+  // summaryLabel: {
+  //   fontSize: 10,
+  //   color: "#64748B",
+  //   marginBottom: 4,
+  //   textAlign: "center",
+  //   fontWeight: "600",
+  //   letterSpacing: 0.5,
+  //   textTransform: "uppercase",
+  // },
+  // summaryValue: {
+  //   fontSize: 16,
+  //   fontWeight: "700",
+  //   color: "#0F172A",
+  //   textAlign: "center",
+  // },
+  // summaryValueTotal: {
+  //   fontSize: 20,
+  //   fontWeight: "800",
+  //   color: "#059669",
+  //   textAlign: "center",
+  // },

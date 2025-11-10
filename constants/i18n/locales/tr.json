@@ -1,0 +1,333 @@
+{
+  "add_customer": {
+    "title": "Müşteri Ekle",
+    "first_name": "Müşteri Adı",
+    "last_name": "Müşteri Soyadı",
+    "phone": "Telefon",
+    "address": "Adres",
+    "save": "Kaydet",
+    "success": "Müşteri başarıyla eklendi.",
+    "error": "Bir hata oluştu: "
+  },
+  "addSupplier": {
+    "pageTitle": "Tedarikçi Ekle",
+    "SupplierName": "Tedarikçi Adı",
+    "SupplierSurname": "Tedarikçi Soyadı",
+    "Phone": "Telefon",
+    "Address": "Adres",
+    "saveButton": "Kaydet"
+  },
+  "add_product": {
+    "title": "Ürün Ekle",
+    "barcode": "Ürün Kodu",
+    "barcode_placeholder": "Barkod",
+    "scan_barcode": "Barkod Tara",
+    "product_name": "Ürün Adı",
+    "stock_type": "Stok Tipi",
+    "initial_stock": "Başlangıç Stoğu",
+    "purchase_price": "Alış Fiyatı",
+    "purchase_price_placeholder": "Alış Fiyatı",
+    "sale_price": "Satış Fiyatı",
+    "sale_price_placeholder": "Satış Fiyatı",
+    "save": "Kaydet",
+    "message": {
+      "createSuccess": "Ürün başarıyla kaydedildi.",
+      "createError": "Bir hata oluştu "
+    }
+  },
+  "admin": {
+    "dashboard": "Admin Paneli",
+    "error": "Kullanıcı verileri alınamadı.",
+    "no_users": "Aktif olmayan kullanıcı bulunamadı.",
+    "confirm": "Onayla",
+    "delete": "Sil",
+    "success": "Kullanıcı başarıyla aktifleştirildi.",
+    "id": "ID",
+    "name": "Ad",
+    "surname": "Soyad",
+    "phone": "Numara",
+    "action": "İşlem"
+  },
+  "camera": {
+    "permission_message": "Kamerayı kullanmak için izninize ihtiyacımız var",
+    "grant_button": "İzni Ver",
+    "close": "Kapat"
+  },
+  "customer": {
+    "search_placeholder": "Ara",
+    "add_button": "+ Müşteri Ekle"
+  },
+  "detail": {
+    "title": "Ürün Detay",
+    "product_info": "Ürün Bilgileri",
+    "name": "Ürün Adı",
+    "code": "Ürün Kodu",
+    "purchase_price": "Alış Fiyatı",
+    "sale_price": "Satış Fiyatı",
+    "start_stock": "Başlangıç Stoğu",
+    "remain_stock": "Kalan Stok",
+    "transactions": "Ürün Hareketleri",
+    "purchase": "Alış",
+    "sale": "Satış"
+  },
+  "financial": {
+    "title": "Finansal",
+    "sales": "Satışlar",
+    "sales_return": "Satış İadesi",
+    "purchases": "Alışlar",
+    "purchase_return": "Alış İadesi",
+    "expenses": "Masraflar",
+    "net_profit": "Net Kar",
+    "date_range": "Tarih Aralığı",
+    "start_date": "Başlangıç Tarihi",
+    "end_date": "Bitiş Tarihi",
+    "transactions": "İşlemler",
+    "back": "Geri",
+    "print": "Yazdır"
+  },
+  "help": {
+    "title": "Bize Ulaşın",
+    "name": "Adınızı girin",
+    "email": "Email adresinizi girin",
+    "subject": "Konu başlığını girin",
+    "message": "Mesajınızı buraya yazın",
+    "send": "Gönder",
+    "customer_service": "Müşteri Hizmetleri:",
+    "contact_us": "Bize Ulaşın:"
+  },
+  "login": {
+    "title": "Giriş Yap",
+    "phone": "Telefon Numarası",
+    "password": "Şifre",
+    "signIn": "Giriş Yap",
+    "forgotPassword": "Şifremi Unuttum",
+    "register": "Kayıt Ol",
+    "alertEmpty": "Lütfen telefon numarası ve şifre giriniz.",
+    "alertError": "Hata"
+  },
+  "main": {
+    "pageTitle": "Ana Sayfa",
+    "buy": "Alış Yap",
+    "sell": "Satış Yap",
+    "return": "İade",
+    "products": "Ürünler",
+    "report": "Rapor"
+  },
+  "modalbarcode": {
+    "permissionMessage": "Kamerayı kullanabilmek için izninize ihtiyacımız var",
+    "grantButton": "İzin Ver",
+    "flip": "Kamerayı Çevir",
+    "close": "Kapat"
+  },
+  "new_sale": {
+    "pageTitle": "Yeni Satış",
+    "addCustomer": "Müşteri Ekle",
+    "selectCustomer": "Müşteri Seç",
+    "payment_method": "Tahsilat Şekli",
+    "invoice_date": "Fatura Tarihi",
+    "select_product": "Ürün Seç",
+    "scan_barcode": "Barkod Oku",
+    "quantity": "Adet",
+    "unit_price": "Birim Fiyatı",
+    "subtotal": "Ara Toplam",
+    "delete_product": "Ürünü Sil",
+    "order_summary": "Sipariş Özeti",
+    "total": "Genel Toplam",
+    "save": "Kaydet"
+  },
+  "sidebar": {
+    "select_product": "Ürün Seç",
+    "product_list": "Ürün Listesi",
+    "add_new": "Yeni Ekle",
+    "detail": "Detay",
+    "financial": "Finansal",
+    "new_sale": "Yeni Satış",
+    "product_edit": "Ürünü Düzenle",
+    "debt": "Borç",
+    "delete_debt": "Borcu Sil",
+    "sales_edit": "Satışı Düzenle",
+    "main_page": "Ana Sayfa",
+    "purchase_form": "Satın Alma Formu"
+  },
+  "product_edit": {
+    "title": "Ürün Düzenle",
+    "barcode": "Ürün Kodu",
+    "scan_barcode": "Barkod Oku",
+    "product_name": "Ürün Adı",
+    "stock_type": "Stok Tipi",
+    "stock_quantity": "Başlangıç Stoğu",
+    "purchase_price": "Alış Fiyatı",
+    "sale_price": "Satış Fiyatı",
+    "delete": "Sil",
+    "save": "Kaydet",
+    "update_success": "Ürün güncellendi.",
+    "update_error": "Ürün güncellenemedi.",
+    "no_changes": "Hiçbir değişiklik yapılmadı."
+  },
+  "product_list": {
+    "pageTitle": "Ürün Listesi",
+    "search_placeholder": "Ara",
+    "scan_barcode": "Barkod ile Bul",
+    "add_product": "Yeni Ürün Ekle",
+    "all": "Hepsi",
+    "out_of_stock": "Stokta Yok",
+    "stock": "Stok",
+    "purchase_price": "Alış",
+    "sale_price": "Satış",
+    "not_found": "Bu barkodla eşleşen ürün bulunamadı.",
+    "error": "Bir hata oluştu"
+  },
+  "purchaseform": {
+    "pageTitle": "Satın Alma Formu",
+    "addSupplier": "Tedarikçi Ekle",
+    "selectSupplier": "Tedarikçi Seç",
+    "selectCustomer": "Müşteri Seç",
+    "customer": "Müşteri",
+    "payment_method": "Tahsilat Şekli",
+    "invoice_date": "Fatura Tarihi",
+    "select_product": "Ürün Seç",
+    "scan_barcode": "Barkod Oku",
+    "quantity": "Adet",
+    "unit_price": "Birim Fiyatı",
+    "subtotal": "Ara Toplam",
+    "delete_product": "Ürünü Sil",
+    "order_summary": "Sipariş Özeti",
+    "total": "Genel Toplam",
+    "save": "Kaydet",
+    "success": "İşlem başarılı",
+    "error": "Bir hata oluştu: "
+  },
+  "payment": {
+    "cash": "Nakit",
+    "card": "Kart",
+    "transfer": "Havale",
+    "debt": "Veresiye"
+  },
+  "report": {
+    "pageTitle": "Raporlar",
+    "all_transactions": "Tüm İşlemler",
+    "sale": "Satış",
+    "customer_return": "Müşteri İade",
+    "debt": "Veresiye",
+    "purchase": "Alış",
+    "supplier_return": "Tedarikçi İade",
+    "date_range": "Tarih Aralığı",
+    "date": "Tarih",
+    "transaction": "İşlem",
+    "stokType": "Stok Tipi",
+    "price": "Fiyat"
+  },
+  "register": {
+    "title": "Kayıt Ol",
+    "name": "İsim",
+    "surname": "Soyad",
+    "username": "Kullanıcı Adı",
+    "phone": "Telefon",
+    "email": "E-posta",
+    "Address": "Adres",
+    "password": "Şifre",
+    "sign_up": "Kayıt Ol",
+    "sign_in": "Giriş Yap"
+  },
+  "return_product": {
+    "title": "Ürün İadesi",
+    "return_type": "İade Tipi",
+    "invoice_date": "Fatura Tarihi",
+    "add_customer": "Müşteri Ekle",
+    "add_supplier": "Tedarikçi Ekle",
+    "select_customer": "Müşteri Seç",
+    "customerReturn": "Müşteri İadesi",
+    "supplierReturn": "Tedarikçi İadesi",
+    "select_supplier": "Tedarikçi Seç",
+    "select_product": "Ürün Seç",
+    "scan_barcode": "Barkod Oku",
+    "quantity": "Adet",
+    "unit_price": "Birim Fiyatı",
+    "subtotal": "Ara Toplam",
+    "delete_product": "Ürünü Sil",
+    "save": "Kaydet",
+    "success_message": "İade başarıyla kaydedildi.",
+    "error_message": "Bir hata oluştu: "
+  },
+  "edit_sale": {
+    "title": "Satış Düzenle",
+    "customer": "Müşteri",
+    "customerSelect": "Müşteri Seç",
+    "addCustomer": "Müşteri Ekle",
+    "payment_method": "Tahsilat Şekli",
+    "invoice_date": "Fatura Tarihi",
+    "select_product": "Ürün Seç",
+    "scan_barcode": "Barkod Oku",
+    "delete_product": "Ürünü Sil",
+    "quantity": "Adet",
+    "kg": "KG",
+    "unit_price": "Birim Fiyatı",
+    "subtotal": "Ara Toplam",
+    "total": "Genel Toplam",
+    "save": "Kaydet",
+    "delete": "Sil",
+    "order_summary": "Sipariş Özeti",
+    "sale_saved": "Satış kaydedildi!",
+    "sale_deleted": "Satış silindi!"
+  },
+  "scrollable_list_screen": {
+    "item": "Öğe"
+  },
+  "select_product": {
+    "pageTitle": "Ürün Seç",
+    "search_placeholder": "Ara",
+    "add_product": "+ Yeni Ürün Ekle",
+    "stock": "Stok"
+  },
+  "table_screen": {
+    "no": "No",
+    "title1": "Başlık 1",
+    "title2": "Başlık 2",
+    "title3": "Başlık 3",
+    "title4": "Başlık 4",
+    "title5": "Başlık 5",
+    "title6": "Başlık 6"
+  },
+  "sale_product_list": {
+    "pageTitle": "Satın Alınan Ürün Listesi",
+    "sale_date": "Satış Tarihi",
+    "add_product": "Yeni Ürün Ekle",
+    "messages": {
+      "fetch_success": "Ürünler başarıyla yüklendi.",
+      "fetch_error": "Bir hata oluştu: ",
+      "fetch_error_console": "Ürünleri getirirken hata oluştu: "
+    }
+  },
+  "alertMessage": {
+    "createSuccess": "Kayıt başarıyla oluşturuldu.",
+    "createError": "Kayıt oluşturulurken bir hata oluştu.",
+    "updateSuccess": "Güncelleme başarıyla tamamlandı.",
+    "updateError": "Güncellenirken bir hata oluştu.",
+    "deleteSuccess": "Silme işlemi başarıyla tamamlandı.",
+    "deleteError": "Silme işlemi sırasında bir hata oluştu.",
+    "fetchError": "Veri alınırken bir hata oluştu.",
+    "fetchSuccess": "Veriler başarıyla yüklendi.",
+    "requiredField": "Zorunlu alanları doldurunuz.",
+    "unexpectedError": "Beklenmeyen bir hata oluştu. Lütfen tekrar deneyiniz.",
+    "barcodeReadError": "Barkod numarasına ait geçerli bir ürün bulunamadı",
+    "loginEntryInput": "Telefon numarası ve şifre alanı boş geçilemez",
+    "userNotFound": "Girilen telefon numarası ve şifreye uygun kullanıcı bulunamadı.",
+    "selectSupplier": "Tedarikçi seçiniz",
+    "no_changes": "Hiçbir değişiklik yapılmadı."
+  },
+  "stockType": {
+    "KG": "Kilogram",
+    "Adet": "Adet",
+    "Koli": "Koli",
+    "Paket": "Paket",
+    "GR": "Gram",
+    "Ons": "Ons",
+    "Litre": "Litre"
+  },
+  "mainPageMenu": {
+    "pageTitle":"İletişim ",
+    "logout":"Çıkış yap",
+    "help":"İletişim",
+    "wtihmecontact":"Bizimle İletişime Geçin"
+  }
+}

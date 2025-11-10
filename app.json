@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "tria-mobile",
+    "slug": "tria-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "cover",
+      "backgroundColor": "#fafbfb"
+    },
+    "ios": {
+      "splash": {
+        "image": "./assets/e-market.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#fafbfb"
+      },
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.bybrstekin.emarket",
+      "permissions": [
+        "INTERNET"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/triaslide.png",
+        "backgroundColor": "#ffffff"
+      },
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "data": [
+            {
+              "scheme": "tel"
+            },
+            {
+              "scheme": "mailto"
+            },
+            {
+              "scheme": "whatsapp"
+            },
+            {
+              "scheme": "https",
+              "host": "wa.me"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "API_URL": "http://92.113.27.13:3000/api",
+      "eas": {
+        "projectId": "37560f5f-d0fb-49e4-8c26-7c6d401598ed"
+      }
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera",
+          "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone",
+          "recordAudioAndroid": true
+        }
+      ],
+      "expo-localization",
+      "expo-sqlite"
+    ]
+  }
+}
